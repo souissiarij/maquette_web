@@ -1731,3 +1731,90 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+
+
+
+
+/* Titre et description */
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Champs du formulaire */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Checkboxes */
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+/* Bouton de soumission */
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Messages d'état */
+.status-message {
+  text-align: center;
+  display: none;
+}
+
+.loading {
+  color: #ffa500;
+}
+
+.sent-message {
+  color: #28a745;
+}
+
+.error-message {
+  color: #dc3545;
+}
